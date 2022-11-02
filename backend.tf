@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "atc-sdf-repo"
+    bucket = "atc-argolis-test-bucket"
     prefix = "terraform/state"
   }
 }
