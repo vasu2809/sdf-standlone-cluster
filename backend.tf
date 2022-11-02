@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "sdf-bucket-repo"
+    bucket = "atc-sdf-repo"
     prefix = "terraform/state"
   }
 }
